@@ -23,7 +23,7 @@ h4 {
   text-align: center;
   font-family: 'Patua One', cursive;
 /*  color: rgba(0, 0, 0, .5);*/
-  color: #2bac5e;
+  color: #365C91;
   text-shadow: 2px 2px 2px #000;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255, 1)), color-stop(50%, rgba(255,255,255,.7)), to(rgba(255,255,255,1)));  
 }
@@ -64,8 +64,17 @@ h4 {
   float: left;
   margin-right: 10px;
 }
-#employees div {
-  padding-bottom: 15px;
+
+#employees div#dave {
+  padding-bottom: 35px;
+}
+
+#employees div#jessie {
+  padding-bottom: 0px;
+}
+
+#employees div#john {
+  padding-bottom: 20px;
 }
 
 .clear {
